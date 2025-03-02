@@ -1,7 +1,0 @@
-<script>start("/Users/xastro/example-helloworld/src/program-rust/");</script>
-<script>onHasParentDirectory();</script>
-<script>addRow("src","src",1,96,"96 B",1740853084,"3/1/25, 1:18:04 PM");</script>
-<script>addRow("tests","tests",1,96,"96 B",1740853084,"3/1/25, 1:18:04 PM");</script>
-<script>addRow(".gitignore",".gitignore",0,9,"9 B",1740853084,"3/1/25, 1:18:04 PM");</script>
-<script>addRow("Cargo.lock","Cargo.lock",0,113297,"111 kB",1740853084,"3/1/25, 1:18:04 PM");</script>
-<script>addRow("Cargo.toml","Cargo.toml",0,560,"560 B",1740860245,"3/1/25, 3:17:25 PM");</script>
