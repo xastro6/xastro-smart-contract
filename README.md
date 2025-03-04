@@ -1,8 +1,3 @@
-You're right to point that out! The command `cargo build-bpf` only needs to be mentioned once, as it's the primary command for building your Solana program. The duplicate `cargo build` should not be there.
-
-Here's the corrected version:
-
-```
 # 🚀 WAGUS Reward System
 
 A Solana smart contract (program) that powers the **WAGUS token** reward system. This program is designed to handle token-based rewards on the Solana blockchain, utilizing SPL tokens and built with Rust.
