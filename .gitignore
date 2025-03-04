@@ -3,3 +3,6 @@
 /agave-release.tar.bz2
 /solana-release.tar.bz2
 Cargo.lock
+*.so
+*.tar.bz2
+*.json
