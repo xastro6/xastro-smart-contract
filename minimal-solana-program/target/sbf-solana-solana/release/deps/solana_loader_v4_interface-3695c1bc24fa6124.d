@@ -1,0 +1,9 @@
+/Users/xastro/example-helloworld/src/program-rust/minimal-solana-program/target/sbf-solana-solana/release/deps/libsolana_loader_v4_interface-3695c1bc24fa6124.rmeta: /Users/xastro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/lib.rs /Users/xastro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/instruction.rs /Users/xastro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/state.rs
+
+/Users/xastro/example-helloworld/src/program-rust/minimal-solana-program/target/sbf-solana-solana/release/deps/libsolana_loader_v4_interface-3695c1bc24fa6124.rlib: /Users/xastro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/lib.rs /Users/xastro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/instruction.rs /Users/xastro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/state.rs
+
+/Users/xastro/example-helloworld/src/program-rust/minimal-solana-program/target/sbf-solana-solana/release/deps/solana_loader_v4_interface-3695c1bc24fa6124.d: /Users/xastro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/lib.rs /Users/xastro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/instruction.rs /Users/xastro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/state.rs
+
+/Users/xastro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/lib.rs:
+/Users/xastro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/instruction.rs:
+/Users/xastro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/state.rs:
