@@ -9,7 +9,6 @@ homepage = "https://github.com/xastro/xastro-smart-contract"
 edition = "2021"
 
 [features]
-# Add any additional features you may need
 no-entrypoint = []
 
 [dependencies]
