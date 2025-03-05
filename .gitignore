@@ -1,8 +1,33 @@
+# Build outputs
 /target/
 /test-ledger/
+
+# Solana binaries
 /agave-release.tar.bz2
 /solana-release.tar.bz2
+
+# Cargo and Rust-related
 Cargo.lock
+
+# Compiled binaries
 *.so
+
+# Package archives
 *.tar.bz2
+
+# JSON files 
 *.json
+
+# Node.js dependencies
+node_modules/
+
+# Environment variable files
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
