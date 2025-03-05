@@ -60,7 +60,7 @@ pub fn process_instruction(
 
     // Extract and validate reward account as a PDA
     let reward_account_info = next_account_info(accounts_iter)?;
-    let (reward_account_pda, reward_bump) = Pubkey::find_program_address(
+    let (reward_account_pda, _reward_bump) = Pubkey::find_program_address(
         &[b"reward"],
         program_id
     );
@@ -71,9 +71,9 @@ pub fn process_instruction(
 
     let user_token_account = next_account_info(accounts_iter)?;
     let vault_token_account = next_account_info(accounts_iter)?;
-    let mint_account = next_account_info(accounts_iter)?;
-    let token_program = next_account_info(accounts_iter)?;
-    let system_program = next_account_info(accounts_iter)?;
+    let _mint_account = next_account_info(accounts_iter)?; // unused
+    let _token_program = next_account_info(accounts_iter)?; // unused
+    let _system_program = next_account_info(accounts_iter)?; // unused
 
     // Deserialize instruction data into the RewardInstruction enum
     let instruction = RewardInstruction::try_from_slice(instruction_data)
@@ -129,7 +129,7 @@ pub fn process_instruction(
             reward_account.serialize(&mut *data)?;
 
             let transfer_ix = transfer(
-                token_program.key,
+                _token_program.key,
                 vault_token_account.key,
                 user_token_account.key,
                 signer.key, 
@@ -141,7 +141,7 @@ pub fn process_instruction(
                 &[
                     vault_token_account.clone(),
                     user_token_account.clone(),
-                    token_program.clone(),
+                    _token_program.clone(),
                     signer.clone(),
                 ],
             )?;
@@ -149,8 +149,7 @@ pub fn process_instruction(
             msg!("Transferred {} WAGUS tokens as reward!", amount);
         }
 
-        RewardInstruction::MintToken { amount } => {
-            // Minting logic here
+        RewardInstruction::MintToken { amount: _amount } => {
         }
     }
 
