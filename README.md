@@ -13,11 +13,18 @@ This project implements a decentralized reward system for the **WAGUS** ecosyste
 
 ## 📂 Project Structure
 ```
-├── src/                    # Program source code
-├── tests/                  # Integration tests
-├── Cargo.toml              # Rust dependencies and package info
-├── target/deploy/          # Compiled Solana program (.so file)
-└── README.md               # Project documentation
+├── /src                  # Contains the main source code of the smart contract
+│   └── lib.rs            # Main contract code
+│
+├── /tests                # Contains test files for the smart contract
+│   └── test-lib.rs       # Unit and integration tests
+│
+├── .gitattributes        # Git configuration for handling file attributes
+├── .gitignore            # Git ignore rules for excluding unnecessary files
+├── cargo.lock            # Rust's lock file for dependencies
+├── cargo.toml            # Rust's package configuration file
+├── readme.md             # This file
+├── testclient.js         # JavaScript file to interact with the smart contract
 ```
 
 ## 🚀 Deployments
